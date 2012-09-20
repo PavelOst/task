@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3E3AC6D160B6A0700DD801E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E3AC6C160B6A0700DD801E /* UIKit.framework */; };
+		D3E3AC6F160B6A0700DD801E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E3AC6E160B6A0700DD801E /* Foundation.framework */; };
+		D3E3AC71160B6A0700DD801E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E3AC70160B6A0700DD801E /* CoreGraphics.framework */; };
+		D3E3AC77160B6A0700DD801E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3E3AC75160B6A0700DD801E /* InfoPlist.strings */; };
+		D3E3AC79160B6A0700DD801E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E3AC78160B6A0700DD801E /* main.m */; };
+		D3E3AC7D160B6A0700DD801E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E3AC7C160B6A0700DD801E /* AppDelegate.m */; };
+		D3E3AC80160B6A0700DD801E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E3AC7F160B6A0700DD801E /* ViewController.m */; };
+		D3E3AC83160B6A0700DD801E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E3AC81160B6A0700DD801E /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D3E3AC68160B6A0700DD801E /* OstaninTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OstaninTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3E3AC6C160B6A0700DD801E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D3E3AC6E160B6A0700DD801E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D3E3AC70160B6A0700DD801E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D3E3AC74160B6A0700DD801E /* OstaninTask-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OstaninTask-Info.plist"; sourceTree = "<group>"; };
+		D3E3AC76160B6A0700DD801E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3E3AC78160B6A0700DD801E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3E3AC7A160B6A0700DD801E /* OstaninTask-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OstaninTask-Prefix.pch"; sourceTree = "<group>"; };
+		D3E3AC7B160B6A0700DD801E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3E3AC7C160B6A0700DD801E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3E3AC7E160B6A0700DD801E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3E3AC7F160B6A0700DD801E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3E3AC82160B6A0700DD801E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3E3AC65160B6A0700DD801E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E3AC6D160B6A0700DD801E /* UIKit.framework in Frameworks */,
+				D3E3AC6F160B6A0700DD801E /* Foundation.framework in Frameworks */,
+				D3E3AC71160B6A0700DD801E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3E3AC5D160B6A0700DD801E = {
+			isa = PBXGroup;
+			children = (
+				D3E3AC72160B6A0700DD801E /* OstaninTask */,
+				D3E3AC6B160B6A0700DD801E /* Frameworks */,
+				D3E3AC69160B6A0700DD801E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3E3AC69160B6A0700DD801E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3E3AC68160B6A0700DD801E /* OstaninTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3E3AC6B160B6A0700DD801E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3E3AC6C160B6A0700DD801E /* UIKit.framework */,
+				D3E3AC6E160B6A0700DD801E /* Foundation.framework */,
+				D3E3AC70160B6A0700DD801E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3E3AC72160B6A0700DD801E /* OstaninTask */ = {
+			isa = PBXGroup;
+			children = (
+				D3E3AC7B160B6A0700DD801E /* AppDelegate.h */,
+				D3E3AC7C160B6A0700DD801E /* AppDelegate.m */,
+				D3E3AC7E160B6A0700DD801E /* ViewController.h */,
+				D3E3AC7F160B6A0700DD801E /* ViewController.m */,
+				D3E3AC81160B6A0700DD801E /* ViewController.xib */,
+				D3E3AC73160B6A0700DD801E /* Supporting Files */,
+			);
+			path = OstaninTask;
+			sourceTree = "<group>";
+		};
+		D3E3AC73160B6A0700DD801E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3E3AC74160B6A0700DD801E /* OstaninTask-Info.plist */,
+				D3E3AC75160B6A0700DD801E /* InfoPlist.strings */,
+				D3E3AC78160B6A0700DD801E /* main.m */,
+				D3E3AC7A160B6A0700DD801E /* OstaninTask-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3E3AC67160B6A0700DD801E /* OstaninTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3E3AC86160B6A0700DD801E /* Build configuration list for PBXNativeTarget "OstaninTask" */;
+			buildPhases = (
+				D3E3AC64160B6A0700DD801E /* Sources */,
+				D3E3AC65160B6A0700DD801E /* Frameworks */,
+				D3E3AC66160B6A0700DD801E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OstaninTask;
+			productName = OstaninTask;
+			productReference = D3E3AC68160B6A0700DD801E /* OstaninTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3E3AC5F160B6A0700DD801E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Корзун Владислав";
+			};
+			buildConfigurationList = D3E3AC62160B6A0700DD801E /* Build configuration list for PBXProject "OstaninTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D3E3AC5D160B6A0700DD801E;
+			productRefGroup = D3E3AC69160B6A0700DD801E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3E3AC67160B6A0700DD801E /* OstaninTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3E3AC66160B6A0700DD801E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E3AC77160B6A0700DD801E /* InfoPlist.strings in Resources */,
+				D3E3AC83160B6A0700DD801E /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3E3AC64160B6A0700DD801E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E3AC79160B6A0700DD801E /* main.m in Sources */,
+				D3E3AC7D160B6A0700DD801E /* AppDelegate.m in Sources */,
+				D3E3AC80160B6A0700DD801E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3E3AC75160B6A0700DD801E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3E3AC76160B6A0700DD801E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D3E3AC81160B6A0700DD801E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3E3AC82160B6A0700DD801E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3E3AC84160B6A0700DD801E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3E3AC85160B6A0700DD801E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3E3AC87160B6A0700DD801E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OstaninTask/OstaninTask-Prefix.pch";
+				INFOPLIST_FILE = "OstaninTask/OstaninTask-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D3E3AC88160B6A0700DD801E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OstaninTask/OstaninTask-Prefix.pch";
+				INFOPLIST_FILE = "OstaninTask/OstaninTask-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3E3AC62160B6A0700DD801E /* Build configuration list for PBXProject "OstaninTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3AC84160B6A0700DD801E /* Debug */,
+				D3E3AC85160B6A0700DD801E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3E3AC86160B6A0700DD801E /* Build configuration list for PBXNativeTarget "OstaninTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3AC87160B6A0700DD801E /* Debug */,
+				D3E3AC88160B6A0700DD801E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3E3AC5F160B6A0700DD801E /* Project object */;
+}
